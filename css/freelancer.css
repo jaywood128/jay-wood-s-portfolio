@@ -397,9 +397,14 @@ h6, .h6 {
   font-size: 1rem;
 }
 
-.lead {
+.lead p {
   font-size: 1.25rem;
   font-weight: 300;
+  max-width: 100% !important;
+}
+
+#lead-image{
+  width: 100% !important;
 }
 
 .display-1 {
@@ -7859,6 +7864,7 @@ button.bg-dark:focus {
 .ml-auto,
 .mx-auto {
   margin-left: auto !important;
+  width: 5rem !important;
 }
 
 @media (min-width: 576px) {
@@ -9715,7 +9721,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .masthead .masthead-avatar {
-  width: 5rem;
+  width: 15rem;
 }
 
 @media (min-width: 992px) {

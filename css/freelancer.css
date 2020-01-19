@@ -397,15 +397,11 @@ h6, .h6 {
   font-size: 1rem;
 }
 
-.lead p {
+.lead {
   font-size: 1.25rem;
   font-weight: 300;
-  max-width: 100% !important;
 }
-
-#lead-image{
-  width: 100% !important;
-}
+.lead-image{ height: 75px;}
 
 .display-1 {
   font-size: 6rem;
@@ -7864,7 +7860,6 @@ button.bg-dark:focus {
 .ml-auto,
 .mx-auto {
   margin-left: auto !important;
-  width: 5rem !important;
 }
 
 @media (min-width: 576px) {

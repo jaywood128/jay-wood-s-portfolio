@@ -46,12 +46,6 @@
 *::after {
   box-sizing: border-box;
 }
-* {
-  margin: 0;
-  border: none;
-  list-style-type: none;
-  }
-  
 
 html {
   font-family: sans-serif;
@@ -7572,8 +7566,6 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
 .ml-5,

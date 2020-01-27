@@ -118,6 +118,7 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
+  
 }
 
 dt {
@@ -402,7 +403,7 @@ h6, .h6 {
   font-weight: 300;
 }
 
-.lead-image{
+.lead-image {
   height: 75px;
 }
 
@@ -7570,6 +7571,7 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
+  list-style-type: none !important;
 }
 
 .ml-5,

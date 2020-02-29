@@ -399,7 +399,12 @@ h6, .h6 {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 300; 
+}
+
+.lead-image{
+  height: 100px;
+  width: 100px;
 }
 
 .display-1 {

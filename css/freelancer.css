@@ -399,12 +399,7 @@ h6, .h6 {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300; 
-}
-
-.lead-image{
-  height: 100px;
-  width: 100px;
+  font-weight: 300;
 }
 
 .display-1 {
@@ -7571,7 +7566,6 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
-  list-style-type: none;
 }
 
 .ml-5,
@@ -9790,6 +9784,21 @@ a.text-dark:hover, a.text-dark:focus {
   line-height: 3rem;
   color: #e1b382;
   opacity: 1;
+}
+
+#lead-image {
+  width: 75px !important;
+  height: 75px !important;
+}
+
+.image-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mb-5 {
+  list-style-type: none;
 }
 
 .floating-label-form-group {

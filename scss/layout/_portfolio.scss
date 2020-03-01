@@ -47,3 +47,20 @@
     opacity: 1;
   }
 }
+
+// Smaller lead-images 
+
+#lead-image{
+  width: 75px !important;
+  height: 75px !important;
+}
+
+.image-flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mb-5{
+  list-style-type: none;
+}

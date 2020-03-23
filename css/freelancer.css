@@ -9823,6 +9823,12 @@ h1 {
   list-style-type: none;
 }
 
+.about-me-flex-container {
+  width: 80% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #e9ecef;
